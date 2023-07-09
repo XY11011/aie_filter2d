@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aieproject:AIEProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aieproject="http://www.xilinx.com/aieproject" name="aie_filter2d" location="D:/vitis_project/aie_filter2d" platform="D:/software/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm" platformUID="xilinx.com:xd:xilinx_vck190_base_202220_1:202220.1(custom)" systemProject="aie_filter2d_system" sysConfig="xilinx_vck190_base_202220_1" runtime="C/C++" cpu="aiengine" cpuInstance="ai_engine" os="aie_runtime">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.aie.config.sw_emu.469984009">
+    <configBuildOptions xsi:type="aieproject:AIEOptions"/>
+    <lastBuildOptions xsi:type="aieproject:AIEOptions"/>
+  </configuration>
+  <configuration name="Emulation-AIE" id="com.xilinx.ide.aie.config.hw_emu.312642653" dirty="true">
+    <configBuildOptions xsi:type="aieproject:AIEOptions" target="hw_emu"/>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.aie.config.hw.736451382" dirty="true">
+    <configBuildOptions xsi:type="aieproject:AIEOptions" target="hw"/>
+  </configuration>
+</aieproject:AIEProject>

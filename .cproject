@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="com.xilinx.ide.aie.config.sw_emu.469984009">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.xilinx.ide.aie.config.sw_emu.469984009" moduleId="org.eclipse.cdt.core.settings" name="Emulation-SW">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="com.xilinx.sdk.managedbuilder.XELF.armlinux" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="com.xilinx.sdx.aie.XilinxErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactExtension="out" artifactName="Work/pthread/sim" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" id="com.xilinx.ide.aie.config.sw_emu.469984009" name="Emulation-SW" parent="com.xilinx.ide.aie.config.sw_emu">
+                    					
+                    <folderInfo id="com.xilinx.ide.aie.config.sw_emu.469984009." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.xilinx.ide.aie.toolchain.sw_emu.56929016" name="AIE Toolchain" superClass="com.xilinx.ide.aie.toolchain.sw_emu">
+                            							
+                            <targetPlatform binaryParser="com.xilinx.sdk.managedbuilder.XELF.armlinux" id="com.xilinx.sdx.aie.managedbuild.toolchain.targetplatform.629729853" isAbstract="false" name="AIE Target Platform" superClass="com.xilinx.sdx.aie.managedbuild.toolchain.targetplatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/aie_filter2d}/Emulation-SW" enableAutoBuild="true" id="com.xilinx.sdx.aie.managedbuild.toolchain.builder.2076388622" managedBuildOn="true" name="AIE Builder.Emulation-SW" superClass="com.xilinx.sdx.aie.managedbuild.toolchain.builder"/>
+                            							
+                            <tool id="com.xilinx.sdx.aie.managedbuild.toolchain.aieccompiler.99484419" name="AIE C Compiler" superClass="com.xilinx.sdx.aie.managedbuild.toolchain.aieccompiler">
+                                								
+                                <option id="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.dircategory.includes.1908270402" superClass="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.dircategory.includes" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${env_var:XILINX_HLS}/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../src&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../data&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.c_cpp.50026139" name="C/C++ source files" superClass="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.c_cpp"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="**/_sds/iprepo/|**/_sds/p0/|**/_sds/reports/|**/_sds/vhls/" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="com.xilinx.ide.aie.config.hw_emu.312642653">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.xilinx.ide.aie.config.hw_emu.312642653" moduleId="org.eclipse.cdt.core.settings" name="Emulation-AIE">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="com.xilinx.sdk.managedbuilder.XELF.armlinux" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="com.xilinx.sdx.aie.XilinxErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" id="com.xilinx.ide.aie.config.hw_emu.312642653" name="Emulation-AIE" parent="com.xilinx.ide.aie.config.hw_emu">
+                    					
+                    <folderInfo id="com.xilinx.ide.aie.config.hw_emu.312642653." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.xilinx.ide.aie.toolchain.hw_emu.1717820309" name="AIE Toolchain" superClass="com.xilinx.ide.aie.toolchain.hw_emu">
+                            							
+                            <targetPlatform binaryParser="com.xilinx.sdk.managedbuilder.XELF.armlinux" id="com.xilinx.sdx.aie.managedbuild.toolchain.targetplatform.521555684" isAbstract="false" name="AIE Target Platform" superClass="com.xilinx.sdx.aie.managedbuild.toolchain.targetplatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/aie_filter2d}/Emulation-AIE" enableAutoBuild="true" id="com.xilinx.sdx.aie.managedbuild.toolchain.builder.82998892" managedBuildOn="true" name="AIE Builder.Emulation-AIE" superClass="com.xilinx.sdx.aie.managedbuild.toolchain.builder"/>
+                            							
+                            <tool id="com.xilinx.sdx.aie.managedbuild.toolchain.aieccompiler.99972736" name="AIE C Compiler" superClass="com.xilinx.sdx.aie.managedbuild.toolchain.aieccompiler">
+                                								
+                                <option id="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.dircategory.includes.1422313556" superClass="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.dircategory.includes" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${env_var:XILINX_HLS}/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../src&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../data&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.c_cpp.1452153262" name="C/C++ source files" superClass="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.c_cpp"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="**/_sds/iprepo/|**/_sds/p0/|**/_sds/reports/|**/_sds/vhls/" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="com.xilinx.ide.aie.config.hw.736451382">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.xilinx.ide.aie.config.hw.736451382" moduleId="org.eclipse.cdt.core.settings" name="Hardware">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="com.xilinx.sdk.managedbuilder.XELF.armlinux" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="com.xilinx.sdx.aie.XilinxErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" id="com.xilinx.ide.aie.config.hw.736451382" name="Hardware" parent="com.xilinx.ide.aie.config.hw">
+                    					
+                    <folderInfo id="com.xilinx.ide.aie.config.hw.736451382." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.xilinx.ide.aie.toolchain.hw.31292027" name="AIE Toolchain" superClass="com.xilinx.ide.aie.toolchain.hw">
+                            							
+                            <targetPlatform binaryParser="com.xilinx.sdk.managedbuilder.XELF.armlinux" id="com.xilinx.sdx.aie.managedbuild.toolchain.targetplatform.290719974" isAbstract="false" name="AIE Target Platform" superClass="com.xilinx.sdx.aie.managedbuild.toolchain.targetplatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/aie_filter2d}/Hardware" enableAutoBuild="true" id="com.xilinx.sdx.aie.managedbuild.toolchain.builder.1654956374" managedBuildOn="true" name="AIE Builder.Hardware" superClass="com.xilinx.sdx.aie.managedbuild.toolchain.builder"/>
+                            							
+                            <tool id="com.xilinx.sdx.aie.managedbuild.toolchain.aieccompiler.1582283928" name="AIE C Compiler" superClass="com.xilinx.sdx.aie.managedbuild.toolchain.aieccompiler">
+                                								
+                                <option id="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.dircategory.includes.131206880" superClass="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.dircategory.includes" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${env_var:XILINX_HLS}/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../src&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../data&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.c_cpp.1382955698" name="C/C++ source files" superClass="com.xilinx.sdx.aie.managedbuild.tool.aieccompiler.c_cpp"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="**/_sds/iprepo/|**/_sds/p0/|**/_sds/reports/|**/_sds/vhls/" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="aie_filter2d.com.xilinx.sdx.aie.managedbuild.project.639990901" name="Xilinx AIE Project" projectType="com.xilinx.sdx.aie.managedbuild.project"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="refreshScope"/>
+    
+</cproject>

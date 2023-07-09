@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.xilinx.sdx.aie.tcf.debug.SDXAIEx86SimLaunchConfigurationType">
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="aie_filter2d"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.xilinx.ide.aie.config.sw_emu.469984009"/>
+    <stringAttribute key="org.eclipse.tcf.debug.ProgramArguments" value="--pkg-dir=./Work --i=.."/>
+</launchConfiguration>
